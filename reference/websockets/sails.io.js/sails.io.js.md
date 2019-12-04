@@ -14,7 +14,7 @@ The main responsibility of `sails.io.js` is to provide a familiar, Ajax-like int
 
 ### Basic usage (browser)
 
-In the browser, all that is required to use `sails.io.js` is to include the library in a `<SCRIPT>` tag.  Sails adds the library to the `assets/js/dependencies` folder of all new apps, so you can write:
+In the browser, all that is required to use `sails.io.js` is to include the library in a `<SCRIPT>` tag.  Sails adds the library to the `assets/dependencies` folder of all new apps, so you can write:
 
 ```html
 <!--
@@ -23,7 +23,7 @@ In the browser, all that is required to use `sails.io.js` is to include the libr
   One tick of the event loop after importing this script, a new "eager" socket
   will automatically be created begin connecting unless you configure it not to.
 -->
-<script type="text/javascript" src="/js/dependencies/sails.io.js"></script>
+<script type="text/javascript" src="/dependencies/sails.io.js"></script>
 ```
 
 and then use `io.socket` as a global variable in subsequent inline or external scripts.  For detailed instructions and examples of everyday usage, see [`io.socket`](https://sailsjs.com/documentation/reference/web-sockets/socket-client/io-socket).
